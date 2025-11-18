@@ -1,0 +1,134 @@
+.navbar-container {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.top-bar {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 50px;
+  height: 10px;
+}
+
+.top-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.top-links p {
+  font-size: 13px;
+  color: #bbb;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.top-links p:hover {
+  color: white;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 50px;
+  backdrop-filter: blur(4px);
+  height: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-gki {
+  color: #3ab54a;
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-text p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.ghost {
+  color: #3ab54a;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.kitchens {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+
+.international {
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-center a {
+  color: white;
+  font-size: 14px;
+  transition: color 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-center a:hover {
+  color: #3ab54a;
+}
+
+.navbar-center a.active {
+  color: #3ab54a;
+}
+
+/* Contact link highlighted */
+.contact-link {
+  color: #3ab54a;
+  font-weight: 500;
+}
+
+/* --- FRANCHISING BUTTON --- */
+.franchise-btn {
+  background-color: white;
+  color: black !important;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.franchise-btn:hover {
+  background-color: #3ab54a;
+  color: white !important;
+}

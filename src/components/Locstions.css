@@ -1,0 +1,68 @@
+.locations {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  color: black;
+}
+.headerr {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../images/hero (2).png");
+  background-size: cover;
+  margin-bottom: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -42px;
+}
+.headerr h1 {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 35px;
+}
+.headerr span {
+  color: #16a34a;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -245px;
+}
+.buttons-l {
+  display: flex;
+  gap: 30px;
+}
+button{
+  border: 1px solid;
+  padding: 6px 45px;
+  border-radius: 15px;
+}
+button.active.all:hover,
+button.gk:hover,
+button.ok:hover,
+button.bb:hover,
+button.cm:hover {
+  background-color: #16a34a;
+  color: white;
+  cursor: pointer;
+}
+.maps{
+  margin-top: 40px;
+}
+button.active {
+  /*border: 1px solid;*/
+  border: 3px solid #16a34a;
+  padding: 6px 45px;
+  border-radius: 15px;
+  /*background-color: #16a34a;
+  color: white;*/
+  cursor: pointer;
+}

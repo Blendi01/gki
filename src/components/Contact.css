@@ -1,0 +1,88 @@
+.contact {
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+.heeader {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../images/hero 3.png");
+  background-size: cover;
+  margin-bottom: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -42px;
+}
+.heeader h1 {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 35px;
+}
+.heeader span {
+  color: #16a34a;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  color:black;
+  padding: 23px 80px;
+  text-align: left;
+  margin-top:-150px;
+  align-items: center;
+}
+.left{
+  width: 60%;
+}
+.left h1{
+  font-size: 50px;
+}
+.left span{
+  color: #16a34a;
+}
+.left p{
+  color:black;
+}
+.right {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border-radius: 30px;
+  /*border: 1px solid gray;*/
+  padding: 20px;
+  gap: 10px;
+  height: fit-content;
+  margin-left: 70px;
+}
+.input{
+  padding: 15px 10px;
+}
+.right button{
+  background-color: black;
+  color: white;
+  width: 70px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+input.name, input.email, input.subject {
+  border: none;
+    height: 35px;
+      border-bottom: 1px solid gray;
+
+}
+input.message{
+  border: none;
+  height: 110px;
+    border-bottom: 1px solid gray;
+
+}

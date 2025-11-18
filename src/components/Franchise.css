@@ -1,0 +1,281 @@
+.franchise {
+  display: flex;
+  align-items: center;
+  background-color: #eaeaea;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  gap: 30px;
+}
+.headder {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../images/hero 4.png");
+  background-size: cover;
+  margin-bottom: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -42px;
+}
+.headder h1 {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 35px;
+}
+.headder span {
+  color: #16a34a;
+}
+
+.ghostkitchen{
+  background-color: white;
+  color:black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  margin-top: -235px;
+  width: 90%;
+  border-radius: 30px;
+  height: 56vh;
+}
+img.ghosti{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  width: 430px;
+  margin-left: 161px;
+}
+.onekitchen{
+  background-color: white;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 15px;
+  border-radius: 30px;
+  height: 56vh;
+}
+img.onei{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  width: 430px;
+  margin-left: -40px;
+
+}
+span.kitchen1{
+  font-size: 31px;
+}
+span.one{
+  color: red;
+  font-size: 38px;
+}
+.textio{
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  width: 295px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+  margin-bottom: 76px;
+}
+.textio h2{
+  margin-right: 17px;
+}
+.ghost1{
+  color: #16a34a;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.textig {
+    display: flex;
+    flex-direction: column;
+    height: 56vh;
+    width: 295px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 76px;
+}
+
+.why-partner h1{
+  color: #16a34a;
+  text-align: left;
+  padding:0px 26px;
+  font-size: 38px;
+}
+.why-partner p{
+  width: 55%;
+  color: black;
+  padding: 0px 26px;
+}
+.lista{
+  color:black;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 45px;
+  width: 95%;
+  font-size: 20px;
+  gap: 8px;
+  margin-top: 45px;
+  font-weight: 600;
+}
+.faqs{
+  margin-top: 50px;
+  background-color: white;
+  color:black;
+  display: flex;
+  flex-direction: column;
+padding: 20px 0px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #0000000f;
+  padding: 0px 9px;
+  cursor: pointer;
+}
+
+.getstarted{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  padding-left:20px;
+  gap: 10px;
+
+}
+.gleft{
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  /*margin-right:700px;*/
+  gap: 10px;
+}
+.step1{
+  color:white;
+  background-color:black;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:0px 22px;
+  width: 690px;
+  height: 167px;
+}
+.step1 p {
+    width: 338px;
+    margin-top: -12px;
+}
+.getstarted h1{
+  color: #16a34a;
+  text-align: left;
+  padding:0px 26px;
+  font-size: 38px;
+  width: 112%;
+}
+.step1 span{
+  color: #16a34a;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.partner-form h1 {
+  margin-bottom: -18px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: -33px;
+  position: relative;
+  bottom: 33px;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.field.full {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.field input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  outline: none;
+  font-size: 16px;
+}
+
+.field input:focus {
+  border-bottom: 1px solid black;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.checkbox-row p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.submit-btn {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 16px 0;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+.partner-form {
+    width: 83%;
+    border-radius: 30px;
+    background: white;
+    padding: 26px 40px;
+    margin-top: 169px;
+}
+.gright{
+  margin-bottom: 59px;
+}

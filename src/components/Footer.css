@@ -1,0 +1,133 @@
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-gki {
+  color: #3ab54a;
+  font-weight: 800;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-text p {
+  margin: 0;
+}
+
+.ghost {
+  color: #3ab54a;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.kitchens {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.international {
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 70px;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link-column a {
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.link-column a:hover {
+  color: #3ab54a;
+}
+
+.link-column a.active {
+  color: #3ab54a;
+}
+
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icon {
+  color: #3ab54a;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.footer hr {
+  border: 0;
+  border-top: 1px solid #222;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #888;
+}
+
+.bottom-links {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-links p {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.bottom-links p:hover {
+  color: white;
+}

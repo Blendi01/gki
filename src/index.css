@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /*transform: scale(0.8);*/
+
+ /* color-scheme: light dark;*/
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  height: 100vh;
+}
+
+title h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+   margin: 0;            
+  font-weight: bold;
+  text-align: left;  
+  position: absolute;   
+  top: 0;               
+  left: 0;              
+  margin-top: 70px;
+  margin-left:250px ;
+}
+
+
