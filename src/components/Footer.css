@@ -131,3 +131,6 @@
 .bottom-links p:hover {
   color: white;
 }
+a{
+  text-decoration: none;
+}

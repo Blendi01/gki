@@ -34,7 +34,7 @@ const Ourstory = () => {
         </h1>
       </div>
       <div className="story-sectionn">
-        <div className="story-leftt" id='1'> 
+        <div className="story-leftt" id="1">
           <h2>Who We Are</h2>
           <p>
             At Ghost Kitchens International, we redefine dining by offering a
@@ -53,7 +53,7 @@ const Ourstory = () => {
         <div className="story-rightt">
           <img src={foto1} className=""></img>
         </div>
-        <div className="story-leftt" id='2'>
+        <div className="story-leftt" id="2">
           <h2 className="h2">Our Vision</h2>
           <p>
             At Ghost Kitchens International, we aim to revolutionize dining with
@@ -72,7 +72,7 @@ const Ourstory = () => {
         <div className="story-rightt">
           <img src={foto2} className=""></img>
         </div>
-        <div className="story-leftt" id='3'>
+        <div className="story-leftt" id="3">
           <h2>Our Mission</h2>
           <p className="p3">
             At Ghost Kitchens International, our mission is to deliver
@@ -95,77 +95,79 @@ const Ourstory = () => {
         </div>
       </div>
 
-
       <div className="team-header">
         <h2>Our Team</h2>
       </div>
       <div className="team-members">
-        <div className="member">
-          <img src={member1} className="Member 1" />
-          <h2>George Kottas</h2>
-          <h4>
-            <strong>Founder/Ceo</strong>
-          </h4>
-          <p>
-            A serial entrepreneur & seasoned franchiser with the vision driving
-            Ghost Kitchen Brands explosive growth
-          </p>
-        </div>
+        <div className="top">
+          <div className="member">
+            <img src={member1} className="Member 1" />
+            <h2>George Kottas</h2>
+            <h4>
+              <strong>Founder/Ceo</strong>
+            </h4>
+            <p>
+              A serial entrepreneur & seasoned franchiser with the vision
+              driving Ghost Kitchen Brands explosive growth
+            </p>
+          </div>
 
-        <div className="member">
-          <img src={member2} className="Member 2" />
-          <h2>Marc Choy</h2>
-          <h4>
-            <strong>President</strong>
-          </h4>
-          <p>
-            A veteran in the food industry with significant leadership
-            experience at national restaurant brands such as Quiznos.
-          </p>
+          <div className="member">
+            <img src={member2} className="Member 2" />
+            <h2>Marc Choy</h2>
+            <h4>
+              <strong>President</strong>
+            </h4>
+            <p>
+              A veteran in the food industry with significant leadership
+              experience at national restaurant brands such as Quiznos.
+            </p>
+          </div>
         </div>
+        <div className="bottom">
+          <div className="member">
+            <img src={member3} className="Member 3" />
+            <h2>
+              <strong>Sean Graham</strong>
+            </h2>
+            <h4>Chief Technology Officer</h4>
+            <p>
+              Sean has more than 25 years of experience working in technology,
+              and a proven track record of innovative thinking and creative
+              problem solving.
+            </p>
+          </div>
 
-        <div className="member">
-          <img src={member3} className="Member 3" />
-          <h2>
-            <strong>Sean Graham</strong>
-          </h2>
-          <h4>Chief Technology Officer</h4>
-          <p>
-            Sean has more than 25 years of experience working in technology, and
-            a proven track record of innovative thinking and creative problem
-            solving.
-          </p>
-        </div>
-
-        <div className="member">
-          <img src={member4} className="Member 4" />
-          <h2>Nada Selim</h2>
-          <h4>
-            <strong>Marketing Manager</strong>
-          </h4>
-          <p>
-            Marketing professional with significant experience in design,
-            strategic development and digital advertisments.
-          </p>
-        </div>
-        <div className="member">
-          <img src={member5} className="Member 5" />
-          <h2>Quinn Baiano</h2>
-          <h4>
-            <strong>Coo</strong>
-          </h4>
-          <p>Business professional focusing on Operations.</p>
-        </div>
-        <div className="member">
-          <img src={member6} className="Member 6" />
-          <h2>David Sarner</h2>
-          <h4>
-            <strong>Business Development</strong>
-          </h4>
-          <p>
-            David is a 30 Year veteran of F&B Hospitality industry expanding
-            brands globally.
-          </p>
+          <div className="member">
+            <img src={member4} className="Member 4" />
+            <h2>Nada Selim</h2>
+            <h4>
+              <strong>Marketing Manager</strong>
+            </h4>
+            <p>
+              Marketing professional with significant experience in design,
+              strategic development and digital advertisments.
+            </p>
+          </div>
+          <div className="member">
+            <img src={member5} className="Member 5" />
+            <h2>Quinn Baiano</h2>
+            <h4>
+              <strong>Coo</strong>
+            </h4>
+            <p>Business professional focusing on Operations.</p>
+          </div>
+          <div className="member">
+            <img src={member6} className="Member 6" />
+            <h2>David Sarner</h2>
+            <h4>
+              <strong>Business Development</strong>
+            </h4>
+            <p>
+              David is a 30 Year veteran of F&B Hospitality industry expanding
+              brands globally.
+            </p>
+          </div>
         </div>
       </div>
 
