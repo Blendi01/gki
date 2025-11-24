@@ -282,7 +282,7 @@ img.frame {
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-behavior: smooth;
-    width: 100%;
+    width: 88%;
   }
 
   .brands-container::-webkit-scrollbar {
