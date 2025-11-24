@@ -66,3 +66,40 @@ button.active {
   color: white;*/
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .locations {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .headerr {
+    display: block;
+    width: 100%;
+    display: flex;
+  }
+
+  .headerr h1 {
+    font-size: 34px;
+    width: 100%;
+  }
+  .location {
+    width: 90%;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+  }
+  .buttons-l {
+        display: flex;
+        flex-direction: column;
+        margin-top: 23px;
+}
+.maps{
+  transform: scale(0.39);
+}
+
+}

@@ -31,11 +31,11 @@
   color: #16a34a;
 }
 
-.ghostkitchen{
+.ghostkitchen {
   background-color: white;
-  color:black;
+  color: black;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   margin-top: -235px;
@@ -43,7 +43,7 @@
   border-radius: 30px;
   height: 56vh;
 }
-img.ghosti{
+img.ghosti {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,11 +51,11 @@ img.ghosti{
   width: 430px;
   margin-left: 161px;
 }
-.onekitchen{
+.onekitchen {
   background-color: white;
   color: black;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   width: 90%;
@@ -63,23 +63,22 @@ img.ghosti{
   border-radius: 30px;
   height: 56vh;
 }
-img.onei{
+img.onei {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 38px;
   width: 430px;
   margin-left: -40px;
-
 }
-span.kitchen1{
+span.kitchen1 {
   font-size: 31px;
 }
-span.one{
+span.one {
   color: red;
   font-size: 38px;
 }
-.textio{
+.textio {
   display: flex;
   flex-direction: column;
   height: 56vh;
@@ -89,41 +88,41 @@ span.one{
   margin-left: 170px;
   margin-bottom: 76px;
 }
-.textio h2{
+.textio h2 {
   margin-right: 17px;
 }
-.ghost1{
+.ghost1 {
   color: #16a34a;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 .textig {
-    display: flex;
-    flex-direction: column;
-    height: 56vh;
-    width: 295px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-    margin-bottom: 76px;
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  width: 295px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 76px;
 }
 
-.why-partner h1{
+.why-partner h1 {
   color: #16a34a;
   text-align: left;
-  padding:0px 26px;
+  padding: 0px 26px;
   font-size: 38px;
 }
-.why-partner p{
+.why-partner p {
   width: 55%;
   color: black;
   padding: 0px 26px;
 }
-.lista{
-  color:black;
+.lista {
+  color: black;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -134,13 +133,13 @@ span.one{
   margin-top: 45px;
   font-weight: 600;
 }
-.faqs{
+.faqs {
   margin-top: 50px;
   background-color: white;
-  color:black;
+  color: black;
   display: flex;
   flex-direction: column;
-padding: 20px 0px;
+  padding: 20px 0px;
 }
 .line {
   display: flex;
@@ -152,45 +151,44 @@ padding: 20px 0px;
   cursor: pointer;
 }
 
-.getstarted{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
+.getstarted {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding-left:20px;
+  padding-left: 20px;
   gap: 10px;
-
 }
-.gleft{
+.gleft {
   display: flex;
   flex-direction: column;
   width: 42%;
   /*margin-right:700px;*/
   gap: 10px;
 }
-.step1{
-  color:white;
-  background-color:black;
+.step1 {
+  color: white;
+  background-color: black;
   border-radius: 30px;
   justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding:0px 22px;
+  padding: 0px 22px;
   width: 690px;
   height: 167px;
 }
 .step1 p {
-    width: 338px;
-    margin-top: -12px;
+  width: 338px;
+  margin-top: -12px;
 }
-.getstarted h1{
+.getstarted h1 {
   color: #16a34a;
   text-align: left;
-  padding:0px 26px;
+  padding: 0px 26px;
   font-size: 38px;
   width: 112%;
 }
-.step1 span{
+.step1 span {
   color: #16a34a;
   font-size: 24px;
   font-weight: 700;
@@ -270,12 +268,112 @@ padding: 20px 0px;
   opacity: 0.9;
 }
 .partner-form {
-    width: 83%;
-    border-radius: 30px;
-    background: white;
-    padding: 26px 40px;
-    margin-top: 169px;
+  width: 83%;
+  border-radius: 30px;
+  background: white;
+  padding: 26px 40px;
+  margin-top: 169px;
 }
-.gright{
+.gright {
   margin-bottom: 59px;
+}
+
+@media (max-width: 768px) {
+  .franchise {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .headder {
+    display: block;
+    width: 100%;
+    display: flex;
+  }
+
+  .headder h1 {
+    font-size: 34px;
+    width: 100%;
+  }
+  .ghostkitchen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 108px;
+    margin-top: -85px;
+  }
+  .onekitchen {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-right: 4px;
+    margin-top: 270px;
+    text-align: right;
+  }
+  .textio {
+    margin-left: 100px;
+    position: relative;
+    top: -70px;
+  }
+  .textig {
+    position: relative;
+    top: -87px;
+  }
+
+  .why-partner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .why-partner h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .why-partner p {
+    text-align: center;
+    margin-left: 73px;
+  }
+  .lista {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    align-items: flex-start;
+  }
+  .line {
+    display: flex;
+    flex-direction: row;
+  }
+  .line h3 {
+    font-size: 14px;
+  }
+  .getstarted {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .gright {
+    margin-right: 28px;
+    width: 105%;
+  }
+  .gleft {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .step1,
+  .step4 img {
+    width: 87%;
+    padding: 0px 16px;
+  }
+
+  .step4 img {
+    width: 95%;
+    margin-left: -14px;
+  }
 }

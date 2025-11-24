@@ -29,26 +29,26 @@
 .heeader span {
   color: #16a34a;
 }
-.main{
+.main {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  color:black;
+  grid-template-columns: repeat(2, 1fr);
+  color: black;
   padding: 23px 80px;
   text-align: left;
-  margin-top:-150px;
+  margin-top: -150px;
   align-items: center;
 }
-.left{
+.left {
   width: 60%;
 }
-.left h1{
+.left h1 {
   font-size: 50px;
 }
-.left span{
+.left span {
   color: #16a34a;
 }
-.left p{
-  color:black;
+.left p {
+  color: black;
 }
 .right {
   background-color: white;
@@ -62,10 +62,10 @@
   height: fit-content;
   margin-left: 70px;
 }
-.input{
+.input {
   padding: 15px 10px;
 }
-.right button{
+.right button {
   background-color: black;
   color: white;
   width: 70px;
@@ -74,15 +74,54 @@
   text-align: center;
 }
 
-input.name, input.email, input.subject {
+input.name,
+input.email,
+input.subject {
   border: none;
-    height: 35px;
-      border-bottom: 1px solid gray;
-
+  height: 35px;
+  border-bottom: 1px solid gray;
 }
-input.message{
+input.message {
   border: none;
   height: 110px;
-    border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .heeader {
+    display: block;
+    width: 100%;
+    display: flex;
+  }
+
+  .heeader h1 {
+    font-size: 34px;
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 12px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    /* margin: 0px; */
+  }
+.right {
+        border: 1px solid;
+        justify-content: center;
+        display: flex;
+        margin-right: 65px;
+}
 
 }

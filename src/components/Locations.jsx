@@ -37,11 +37,7 @@ const Locations = () => {
 
       <div className="buttons-l">
         <button
-          className={currentMap === all ? "active" : ""}
-          onClick={() => setCurrentMap(all)}
-        >
-          All Locations
-        </button>
+          className={currentMap === all ? "active" : ""} onClick={() => setCurrentMap(all)}> All Locations</button>
 
         <button
           className={currentMap === gk ? "active" : ""}

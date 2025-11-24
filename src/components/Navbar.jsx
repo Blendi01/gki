@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar({ isMenuOpen, setIsMenuOpen }) {
   const location = useLocation();
 
   return (
@@ -28,14 +28,19 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <nav className="navbar-center">
-          <Link to="/our-story" className={location.pathname === "/our-story" ? "active" : ""}>Our Story</Link>
-          <Link to="/locations" className={location.pathname === "/locations" ? "active" : ""}>Locations</Link>
-          <p>International</p>
-          <p>Media</p>
-          <Link to="/join-our-team" className={location.pathname === "/join-our-team" ? "active" : ""}>Join Our Team</Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact</Link>
-          <Link to="/franchise" className={location.pathname === "/franchise" ? "active" : ""}>Franchising Opportunities</Link>
+        <div className="menu" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          &#9776;
+        </div>
+
+        <nav className={`navbar-center ${isMenuOpen ? "active" : ""}`}>
+          <Link to="/our-story" className={location.pathname === "/our-story" ? "active" : ""} > Our Story </Link>
+
+          <Link  to="/locations"  className={location.pathname === "/locations" ? "active" : ""}>  Locations</Link>
+        <p>International</p>
+        <p>Media</p>
+          <Link  to="/join-our-team"  className={location.pathname === "/join-our-team" ? "active" : ""}>  Join Our Team</Link>
+          <Link  to="/contact"  className={location.pathname === "/contact" ? "active" : ""}>  Contact</Link>
+          <Link  to="/franchise"  className={location.pathname === "/franchise" ? "active" : ""}>  Franchising Opportunities</Link>
         </nav>
       </div>
     </header>

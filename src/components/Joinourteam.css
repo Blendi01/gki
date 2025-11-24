@@ -189,3 +189,45 @@ p.jobsp span {
 .job-item h3 {
   color: #16a34a;
 }
+
+@media (max-width: 768px) {
+  .joinourteam {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .hheader {
+    display: block;
+    width: 100%;
+    display: flex;
+  }
+
+  .hheader h1 {
+    font-size: 34px;
+    width: 100%;
+  }
+  .workwithus {
+    width: 100%;
+    /*padding: 0px 12px;*/
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+  }
+  .work-cards {
+        /* max-width: 90%; */
+        padding: 0px 13px;
+        /* width: fit-content; */
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+.work-card{
+  width: 25%;
+  font-size: 10px;
+}
+
+
+}

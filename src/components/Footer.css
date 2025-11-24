@@ -85,7 +85,6 @@
   color: #3ab54a;
 }
 
-
 .footer-socials {
   display: flex;
   gap: 20px;
@@ -131,6 +130,29 @@
 .bottom-links p:hover {
   color: white;
 }
-a{
+a {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1px 40px 3px;
+  }
+
+  .footer-top {
+    display: grid;
+    /* flex-direction: column; */
+    /* width: 106%; */
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 25px 4px;
+    /* gap: 35px; */
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    margin-bottom: -71px;
+  }
 }
